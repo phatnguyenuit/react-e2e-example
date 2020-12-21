@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "react-app", 
+    "react-app/jest", 
+    "prettier/@typescript-eslint",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }]
+  }
+}
